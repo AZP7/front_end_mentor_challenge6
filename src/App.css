@@ -30,8 +30,8 @@
   }
   .menu_holder{
   gap: 25px;
-  max-width: 1000px;
   width: 100%;
+  border: 1px solid red;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -247,6 +247,9 @@
   .selected_item{
     width: 400px;
     padding-top: 40px;
+  }
+  .menu_holder{
+    width:1000px !important;
   }
    .order_complete{
     width: 0px;
